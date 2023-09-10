@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>My First Page</title>
+        <link rel="stylesheet" href="style/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <div class="" id="bg"></div>
+
+        <div class="nav">
+            <div class="add-btn center">
+                <img src="imgs/add.png" alt="" />
+                <span>اضافة</span>
+            </div>
+            <div class="search">
+                <img src="imgs/search.png" alt="" />
+                <input
+                    type="text"
+                    class="search-bar center"
+                    placeholder="البحث"
+                />
+            </div>
+
+            <div class="left-btns">
+                <!-- <div class="upload-btn center" >
+            <img src="imgs/upload.png" alt="">
+        </div> -->
+                <div class="download-btn center">
+                    <img src="imgs/download.png" alt="" />
+                </div>
+                <div class="settings-btn center">
+                    <img src="imgs/setting.png" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div class="table"></div>
+
+        <div class="notification"></div>
+
+        <div class="upload box hide">
+            <div class="content">
+                <div class="exit-btn">
+                    <img src="imgs/close.png" alt="" class="exit-img" />
+                </div>
+                <div class="input center">
+                    <label>الاسم</label>
+                    <textarea
+                        style="resize: none"
+                        class="input-box upload-box-name"
+                    ></textarea>
+                </div>
+                <div class="input center">
+                    <label>السعر</label>
+                    <textarea
+                        style="resize: none"
+                        class="input-box upload-box-price"
+                    ></textarea>
+                </div>
+                <div>
+                    <button class="save-btn save-upload">اضافة</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/main.js"></script>
+        <script src="scripts/JsBarcode.js"></script>
+    </body>
+</html>
